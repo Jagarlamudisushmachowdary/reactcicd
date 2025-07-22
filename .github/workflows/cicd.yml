@@ -29,11 +29,11 @@ jobs:
       - name: Build the Project
         run: npm run build
       
-        #Configure Git Identity
+          #Configure Git Identity
       - name: Configure Git
         run: |
           git config --global user.name Jagarlamudisushmachowdary
-          git congif --global user.email sushmajagarlamudi4@gmail.com
+          git config --global user.email sushmajagarlamudi4@gmail.com
 
        # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
